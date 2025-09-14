@@ -5,11 +5,19 @@ This project implements a well-reasoned two-stage Ridge Regression model to anal
 
 ## Repository Structure
 marketing_mix_model_mediation/
-├── data/              # raw and processed data (ignored in git)
-├── notebooks/         # Jupyter notebooks for EDA and modeling
-├── src/               # modular Python code
-├── requirements.txt   # dependencies
-└── README.md          # this file
+├── data/               # raw and processed data (ignored in git)
+│   ├── raw/            
+│   └── processed/      
+├── notebooks/          # Jupyter notebooks for EDA and modeling
+│   ├── 01_eda.ipynb    
+│   └── 02_modeling.ipynb
+├── src/                # modular Python code
+│   ├── __init__.py     
+│   ├── features.py     
+│   └── modeling.py     
+├── requirements.txt    # dependencies
+└── README.md           # project documentation
+
 
 ## Key Steps & Findings
 
