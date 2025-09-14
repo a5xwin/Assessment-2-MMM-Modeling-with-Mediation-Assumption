@@ -3,6 +3,13 @@
 ## Project Overview
 This project implements a well-reasoned two-stage Ridge Regression model to analyze marketing performance, treating Google Spend as a mediator between social media spend (Facebook, TikTok, etc.) and Revenue. We adopted a two-stage approach for the mediator, applied time-series cross-validation to respect the sequential data structure, and delivered actionable insights for the marketing team.
 
+## Repository Structure
+marketing_mix_model_mediation/
+├── data/              # raw and processed data (ignored in git)
+├── notebooks/         # Jupyter notebooks for EDA and modeling
+├── src/               # modular Python code
+├── requirements.txt   # dependencies
+└── README.md          # this file
 
 ## Key Steps & Findings
 
@@ -33,3 +40,5 @@ This project implements a well-reasoned two-stage Ridge Regression model to anal
     - `01_eda.ipynb`: Exploratory Data Analysis.
     - `02_modeling.ipynb`: Full analysis, model building, and insight generation.
 3.  The results are deterministic due to set random seeds (`random_state=42`).
+
+
